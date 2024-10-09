@@ -1,0 +1,623 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+body {
+  font-family: sans-serif;
+  background: rgb(31, 29, 29);
+}
+/* HEADER */
+.header {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav a {
+  color: white;
+}
+.nav a:hover {
+  color: #118da8;
+}
+/* header */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.take {
+  color: white;
+}
+.take h1 {
+  padding: 150px 0;
+  font-weight: 300;
+  font-size: 60px;
+}
+.take h1 span {
+  font-weight: 800;
+}
+.on p {
+  padding: 30px 0;
+}
+#card {
+  padding: 70px;
+}
+.Lastest {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Lastest h1 {
+  color: white;
+  font-size: 44px;
+}
+.Lastest button {
+  padding: 12px 30px;
+  color: white;
+  background: #118da8;
+  border-radius: 7px;
+}
+.card-block {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  background: black;
+  width: 100%;
+  height: 500px;
+  padding: 40px;
+  border-radius: 12px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 70px 0;
+}
+.card-block-tetx {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: start;
+}
+.card-block-tetx span {
+  color: white;
+  padding: 4px 14px;
+  background: rgb(41, 40, 40);
+  border-radius: 10px;
+}
+.card-block-tetx h4 {
+  color: #118da8;
+}
+.card-block-tetx h1 {
+  color: white;
+  font-size: 54px;
+}
+.card-block-tetx p {
+  color: rgba(255, 255, 255, 0.603);
+  font-size: 18px;
+}
+.card-block-tetx button {
+  padding: 12px 30px;
+  color: white;
+  background: #118da8;
+  border-radius: 7px;
+}
+/* JACOB */
+.jacob {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.jacob-circle {
+  width: 100px;
+  height: 100px;
+  background: #118da8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jacob-circle {
+  ion-icon {
+    font-size: 50px;
+  }
+}
+.jacob-text h4 {
+  color: #118da8;
+  padding: 10px 0 0 0;
+}
+.jacob-text h1 {
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 65px;
+}
+.jacob-text p {
+  color: rgba(255, 255, 255, 0.603);
+  font-size: 18px;
+}
+/* JACOB */
+/* SUBSCRIBE */
+#subscribe {
+  padding: 60px 0;
+}
+.subscribe-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribe {
+  background-color: black;
+  padding: 35px;
+  border-radius: 20px;
+}
+.subscribe h4 {
+  color: #118da8;
+  font-size: 15px;
+}
+.subscribe-text h1 {
+  font-size: 72px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 2px;
+}
+.subscribe-input input {
+  width: 420px;
+  height: 65px;
+  background: #191919;
+  border: none;
+  border-radius: 4px;
+}
+.inp {
+  margin: 11px 0;
+}
+.subscribe-input {
+  display: flex;
+  flex-direction: column;
+}
+.subscribe-input text {
+  width: 420px;
+  height: 45px;
+  background: black;
+  color: rgba(255, 255, 255, 0.603);
+  border: none;
+  padding: 20px 10px;
+}
+.subscribe-input button {
+  background: #191919;
+}
+/* PRODUCT */
+#product {
+  padding: 60px 0;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product-block {
+  border-radius: 20px;
+  width: 25%;
+  padding: 35px 35px;
+  height: 270px;
+  background: black;
+  color: white;
+}
+.product-block h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  padding: 15px 0;
+}
+.product-block h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: rgba(255, 255, 255, 0.641);
+  padding: 5px 5px 5px 5px;
+}
+/* PRODUCT */
+/* FOOTER */
+#footer {
+  padding: 50px 30px;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-logo h1 {
+  color: white;
+  font-size: 55px;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.footer-icons a {
+  color: white;
+  font-size: 20px;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+}
+.footer-text a {
+  margin-bottom: 14px;
+  color: white;
+  font-size: 20px;
+}
+/* FOOTER */
+/* MEDIA */
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .hero img {
+    width: 50%;
+  }
+  .take h1 {
+    padding: 150px 0;
+    font-size: 50px;
+  }
+  .card-block {
+    width: 100%;
+  }
+  .card-block-tetx {
+    gap: 20px;
+    h1 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+  .jacob {
+    img {
+      width: 60%;
+    }
+  }
+  .jacob-text {
+    h1 {
+      font-size: 60px;
+      padding: 20px 0;
+    }
+    h4 {
+      padding: 20px 0;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .jacob-circle {
+    width: 80px;
+    height: 80px;
+  }
+  .product-block {
+    width: 24%;
+    padding: 30px 30px;
+    height: 240px;
+    h2 {
+      font-size: 27px;
+      font-weight: 400;
+      line-height: 34.2px;
+      padding: 15px 0;
+    }
+    h3 {
+      font-size: 24px;
+      line-height: 28.8px;
+    }
+  }
+  .subscribe-text {
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .take {
+    h1 {
+      padding: 120px 0;
+    }
+  }
+  .card-block {
+    width: 100%;
+    img {
+      width: 60%;
+    }
+  }
+  .card-block-tetx {
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  .jacob img {
+    width: 55%;
+  }
+  .jacob-circle {
+    width: 60px;
+    height: 60px;
+  }
+  .footer-logo h1 {
+    font-size: 45px;
+  }
+  .footer-text a {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .footer img {
+    width: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .take {
+    h1 {
+      padding: 95px 0;
+    }
+  }
+  .card-block {
+    width: 90%;
+    img {
+      width: 55%;
+    }
+  }
+  .card-block {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    height: 355px;
+  }
+  .card-block-tetx {
+    display: flex;
+    gap: 25px;
+    h1 {
+      font-size: 25px;
+    }
+    button {
+      padding: 5px 25px;
+    }
+  }
+  .jacob-text {
+    p {
+      font-size: 13px;
+    }
+  }
+  .jacob img {
+    width: 55%;
+  }
+  .subscribe-text {
+    h1 {
+      font-size: 48px;
+    }
+  }
+  .subscribe-input input {
+    width: 398px;
+    height: 48px;
+  }
+  .product-block {
+    width: 24%;
+    padding: 17px 30px;
+    height: 240px;
+    h2 {
+      font-size: 23px;
+      line-height: 32.2px;
+      padding: 11px 0;
+    }
+  }
+  #footer {
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 550px) {
+  .header {
+    padding: 40px 0;
+  }
+  .nav {
+    width: 35%;
+  }
+  .take {
+    h1 {
+      padding: 0px 0;
+      font-size: 40px;
+    }
+  }
+  .Lastest {
+    button {
+      padding: 3px 20px;
+    }
+    h1 {
+      font-size: 35px;
+    }
+  }
+  .card-block {
+    height: 220px;
+  }
+  .card-block-tetx {
+    display: flex;
+    gap: 10px;
+    h1 {
+      font-size: 17px;
+    }
+    p {
+      font-size: 11px;
+      line-height: 15px;
+    }
+  }
+  .ion-icon {
+    display: block;
+    height: 90%;
+    width: 90%;
+  }
+  .jacob-circle {
+    width: 40px;
+    height: 40px;
+  }
+  .jacob-text {
+    h1 {
+      font-size: 40px;
+      padding: 10px 0;
+    }
+    p {
+      font-size: 9px;
+    }
+  }
+  .subscribe {
+    padding: 25px;
+  }
+  .subscribe-input input {
+    width: 218px;
+    height: 45px;
+  }
+  .subscribe-text {
+    h1 {
+      font-size: 35px;
+    }
+  }
+  .product-block {
+    width: 21%;
+    padding: 9px 27px;
+    height: 235px;
+    h2 {
+      font-size: 20px;
+      line-height: 25.2px;
+      padding: 10px 0;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 25.2px;
+    }
+  }
+  .footer {
+    display: flex;
+    gap: 21px;
+  }
+  .footer-logo h1 {
+    font-size: 35px;
+  }
+  .footer img {
+    width: 40%;
+  }
+  .footer-text a {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .hero {
+    display: flex;
+    gap: 30px;
+  }
+  .take {
+    h1 {
+      padding: 20px 0;
+      font-size: 35px;
+    }
+  }
+  .card-block {
+    height: 185px;
+    img {
+      width: 50%;
+    }
+  }
+  .card-block-tetx {
+    display: flex;
+    gap: 5px;
+    h1 {
+      font-size: 14px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 9px;
+      line-height: 10px;
+    }
+    button {
+      padding: 0;
+    }
+  }
+  .jacob-text {
+    p {
+      font-size: 8px;
+    }
+  }
+  .product-block {
+    width: 19%;
+    padding: 7px 27px;
+    height: 224px;
+    img {
+      width: 15%;
+    }
+    h2 {
+      font-size: 15px;
+      line-height: 22.2px;
+      padding: 0px 0;
+    }
+    h3 {
+      font-size: 14px;
+      line-height: 21.2px;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .take {
+    h1 {
+      padding: 11px 0;
+      font-size: 33px;
+    }
+  }
+  .card-block {
+    height: 167px;
+    img {
+      width: 61%;
+    }
+  }
+  .card-block-tetx span {
+    padding: 4px 8px;
+  }
+  .card-block-tetx {
+    h1 {
+      font-size: 7px;
+    }
+    p {
+      font-size: 6px;
+      line-height: 6px;
+    }
+  }
+  .jacob-text {
+    h1 {
+      padding: 10px 0;
+      font-size: 60px;
+
+      p {
+        font-size: 6px;
+      }
+    }
+  }
+}
+/* MEDIA */
